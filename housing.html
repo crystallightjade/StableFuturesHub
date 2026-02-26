@@ -1,1 +1,53 @@
-<!-- Header Nav Area -->\n<nav>\n    <!-- Existing nav items -->\n    <input type="text" id="siteSearch" placeholder="Search resources, housing, therapy..." onkeyup="searchSite()" class="search-bar">\n</nav>\n<!-- Rest of the housing.html content -->
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Housing Hub — StableFutures</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header class="site-header">
+<div class="wrap">
+<h1>Housing Hub</h1>
+
+<nav class="nav">
+<a href="index.html">Home</a>
+<a href="housing.html">Housing</a>
+<a href="resources.html">Resources</a>
+<a href="therapy.html">Therapy</a>
+<a href="worksheets.html">Worksheets</a>
+<a href="caregivers.html">CASAs & Caregivers</a>
+<a class="pill danger" href="crisis.html">Crisis Help</a>
+</nav>
+
+<input type="text" id="siteSearch" placeholder="Search housing..." onkeyup="searchSite()" class="search-bar">
+</div>
+</header>
+
+<main class="wrap">
+
+<section class="card">
+<h2>How to Apply for Transitional Housing</h2>
+<p>Start with your ILP Coordinator or social worker. Ask about THP-Plus and THP-NMD programs.</p>
+<a href="https://www.cdss.ca.gov/inforesources/foster-care/transitional-housing-programs" target="_blank">CDSS Housing Overview</a>
+</section>
+
+<section class="card">
+<h2>San Diego Housing Programs</h2>
+<ul>
+<li>YMCA Transitional Housing</li>
+<li>LifeSpring Transitional Youth Housing</li>
+<li>SBCS Foster Youth Support</li>
+<li>San Diego Youth Services</li>
+<li>Walden Family Services</li>
+<li>My Brother’s Keeper</li>
+</ul>
+</section>
+
+</main>
+
+<script src="search.js"></script>
+</body>
+</html>
